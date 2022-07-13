@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../resources/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Eventos-Angulina Casa de Té</title>
+</head>
+<body>
+    <header>
+        <nav class="header__nav">
+            <img class="header__logo" src="../resources/favicon.ico">
+            <ul class="header__lista">
+                <li class="header__item"><a href="../index.html">Inicio</a></li>
+                <li class="header__item"><a href="menu.html">Nuestras Delicias</a></li>
+                <li class="header__item"><a href="galeria.html">Galeria</a></li>
+                <li class="header__item"><a href="#">Eventos</a></li>
+                <li class="header__item"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+        <section>
+            <div class="evento__info">
+            <h1>ORGANIZA TU REUNION CON NOSOTROS</h1>
+            <span>Te brindamos nuestra experiencia y servicio a tu celebración</span>
+            <P>En Angulina Casa de Té, brindamos el lugar perfecto para tu celebración,contamos con un sector exclusivo para Tea time entre amigos, cumpleaños, eventos corporativos o baby showers</P>
+            </div>
+        </section>
+
+        <section class="padreico">
+            <article class="iconos">
+            <div class="iconos__hijo">
+                <img class="iconos__img" src="../resources/tea-time.svg" alt="tea time">
+            </div>
+
+            <div class="iconos__hijo">
+                <img class="iconos__img" src="../resources/birthday.svg" alt="cumpleaños">
+            </div>
+
+            <div class="iconos__hijo">
+                <img class="iconos__img" src="../resources/baby.svg" alt="baby shower"> 
+            </div>
+
+            <div class="iconos__hijo">
+                <img class="iconos__img" src="../resources/e-corporativo.svg" alt="evento coprorativo">
+            </div>
+
+            <div class="iconos__hijo">
+                <img class="iconos__img" src="../resources/e-corporativo.svg" alt="evento coprorativo">
+            </div>
+
+<!--             <div class="iconos__hijo">
+                <img class="iconos__img" src="../resources/e-corporativo.svg" alt="evento coprorativo">
+            </div> -->
+        </article>
+        </section>
+
+        <section class="reserva">
+            <div class="reserva__info">
+            <h2>Reserva Ahora</h2>
+            <p>Para reservaciones ponete en contacto con nuestras líneas o llena el siguiente formulario y nos pondremos en contacto lo más pronto posible.</p>
+            </div>
+            <form method="POST" class="form">
+            <fieldset>
+                <div class="form__nombre">
+                    <label for="nombre"> Nombre:</label>
+                    <input class="form__input" type="text" name="nombre"/>
+                </div>
+                <div class="form__apellido">
+                    <label for="apellido"> Apellido:</label>
+                    <input class="form__input" type="text" name="apellido"/>
+                </div>
+                <div class="form__tel">
+                    <label for="tel"> Tel.:</label>
+                    <input class="form__input" type="number" name="number"/>
+                </div>
+                <div class="form__email">
+                    <label for="email"> E-Mail:</label>
+                    <input class="form__input"type="email" name="email"/>
+                </div>
+                <div class="form__evento">
+                    <label for="evento"> Clase de Evento:</label>
+                    <input class="form__input"type="text" name="Clase de Evento"/>
+                </div>
+                <div class="form__fecha">
+                    <label for="fecha"> Fecha de Evento:</label>
+                    <input class="form__input" type="date" name="date"/> 
+                </div>
+                <div class="form__personas">
+                    <label for="personas"> Número de Personas:</label>
+                    <input class="form__input"type="number" name="number personas"/>
+                </div>
+                <div>
+                <button class="form__boton">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__ico">
+            <p class="footer__parr"> Siguenos en Nuestras Redes </p>
+            <a href="https://facebook.com"><img class="footer__img" src="../resources/facebook-brands.svg"></a>
+            <a href="https://instagram.com"><img class="footer__img" src="../resources/instagram-brands.svg"></a>
+            <a href="https://twitter.com"><img class="footer__img" src="../resources/twitter-brands.svg"> </a>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,716 @@
+*{ margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #73d8ca;
+    width: 100vw;
+    height: 70px;
+    justify-content: space-between;
+}
+.header__logo{
+    display: inline;  
+    align-items: center;
+    padding: 15px;
+
+}
+
+.header__nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.header__lista {
+    display: flex;
+    list-style: none;
+    padding: 0 16px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 2;
+}
+
+.header__item {
+    display: inline;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.header__item a {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+body { 
+    background-color: #f4e1c6;}
+
+/* INICIO */
+
+.main__principal{
+    display:grid;
+    grid-template-columns:1 1 1;
+    grid-auto-rows:auto;
+    grid-template-areas:
+                        "angulina     angulina     angulina"
+                        "angulinados angulinados  angulinados";
+    border: 1px solid whitesmoke;
+    margin: 20px;
+    padding: 10px;
+    background-image:url("../resources/tazablanca.jpg");
+    max-width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-content: flex-start;
+    background-size:cover;
+    background-position:center;
+}
+
+.angulina{
+    grid-area:angulina;
+    text-align: center;
+} 
+.angulinados{
+    grid-area:angulinados;
+}
+
+
+.portada__titulo { 
+    font-size:50px;
+    color:white;
+    font-style: oblique;
+    line-height: 3;
+}
+
+.portada__parrafo{
+    font-size: 25px;
+    color:black;
+    text-align: center;
+}
+
+
+
+
+
+.historia{
+    display: grid;
+    grid-template-columns: 1 1 2;
+    background-color: antiquewhite;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+    max-width: 100%;
+    height: 70vh;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.historia__titulo{
+    grid-column: 1/2;
+    font-size: 35px;
+    color: black;
+    font-style: oblique;
+    text-align: left;
+/*     margin-bottom: 10px;  */
+    padding: 0px 16px;
+    line-height: 1;
+}   
+
+
+.historia__foto{
+    grid-column: 2/4;
+    width: 300px;
+    height: 400px;
+    background-image: url("../resources/gente.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+.historia__parrafo{
+    grid-column: 1/2;
+    font-size: 20px;
+    color:black;
+    text-align: left;
+    padding: 0px 16px;
+}
+
+
+    
+
+
+/* .historia__imagen 
+    width:250px;
+    height:350px;
+    padding: 25px 25px;
+    display: flex;
+
+.historia__imagen--destacada
+    width: 400px;
+    height:400px;
+    padding: 25px 25px;
+    display: flex;
+*/
+
+
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+.footer__ico {
+    background-color:#73d8ca;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+    position: relative;
+}
+
+
+.footer__parr{
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.footer__img{
+    display: inline;
+    width: 35px;
+    padding:0px 16px;
+}
+
+
+
+/* MEDIA QUERIE CEL */
+
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+header{
+    display: flex;
+    width: fit-content;
+    height: auto;
+}
+.header__nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-height: auto;
+}  
+ul{
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 0;
+    align-items: center;
+} 
+
+.portada{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    margin: 5px;
+    padding: 5px;
+}
+    
+    
+.angulina{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    }
+    
+.angulinados{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+    
+.historia{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    background-color:antiquewhite;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+    width: fit-content;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+    
+    
+.historia__titulo{
+    grid-column: 1/2;
+    font-size: 28px;
+    color: black;
+    font-style: oblique;
+    text-align: center;
+
+}   
+
+.historia__foto{
+    grid-column: 1/2;
+    width: 300px;
+    height: 400px;
+    background-image: url("../resources/gente.jpg");
+    background-size: cover;
+    justify-content: center;
+}
+
+.historia__parrafo{
+    grid-column: 1/2;
+    font-size: 10px;
+    color:black;
+    text-align: center;
+    line-height: 20px;
+}
+    
+.footer{
+    width: fit-content;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.footer__ico{
+    justify-content: center;
+}
+
+}
+
+/* MEDIA QUERIE TABLET */
+
+@media (min-width: 576px) and (max-width: 992px){
+
+header{
+    width: fit-content;
+    height: auto;
+    
+}
+
+.header__item {
+    display: inline;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.portada__parrafo{
+    font-size: 20px;
+}
+.historia__parrafo{
+    font-size: 15px;
+}
+
+.historia__foto{
+    width: 200px;
+    height: 300px;
+}
+
+}
+
+
+
+/* NUESTRAS DELICIAS / Responsive/Media querie tablet*/ 
+
+.contenedor__menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-height: auto;
+    justify-content: center;
+
+}
+.menu{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.infomenu {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px ;
+}
+.croissant{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid chocolate ;
+}
+
+.croissant__img{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 15px;
+}
+
+.corissant__info{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.croissant__boton{
+    background-color: whitesmoke;
+    padding:5px;
+    border: none;
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .header__item {
+        display: inline;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GALERIA */
+
+.galeria__titulo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.galeria__info {
+    width: fit-content;
+    margin-bottom: 15px;
+    padding: 0px 16px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.galeria__grid{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+                        "spill             copas             tetera__dorada"
+                        "flor__azul        mesa              globos"
+                        "mesita            taza__cartel      sirviendote";
+    gap:5px;    
+    padding: 10px;  
+    background-color: antiquewhite;           
+}
+
+.galeria__contenedor{
+    height: 100%;
+    border-radius: 3%;
+}
+.galeria__contenedor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tetera__dorada{
+    grid-area:tetera__dorada;
+    
+} 
+.taza__cartel{
+    grid-area: taza__cartel;
+}
+.sirviendote{
+    grid-area: sirviendote;
+}
+.flor__azul{
+    grid-area: flor__azul;
+}
+.mesa{
+    grid-area: mesa;
+}
+.globos{
+    grid-area: globos;
+}
+.spill{
+    grid-area: spill;
+}
+.copas{
+    grid-area: copas;
+}
+.mesita{
+    grid-area: mesita;
+}
+
+/* MEDIA QUERIE CEL DE GALERIA */
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+.galeria__grid{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: 15px;
+    row-gap: 20px;
+    grid-template-areas:
+                        "spill"             
+                        "copas"             
+                        "tetera__dorada"    
+                        "flor__azul"
+                        "mesa"              
+                        "globos"
+                        "mesita            
+                        "taza__cartel"      
+                        "sirviendote";
+}
+
+}
+
+
+/* MEDIA QUERIE TABLE GALERIA*/
+
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+.galeria__grid{
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px; 
+    grid-template-areas:
+                            "spill           copas"             
+                            "tetera__dorada  flor__azul"
+                            "mesa             globos"
+                            "mesita           taza__cartel"      
+                            "sirviendote       none";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EVENTOS */
+
+.evento__info{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0px 16px;
+    text-align: center;
+}
+.padreico{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iconos{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
+    border-radius: 5px;   
+}
+
+
+.iconos__hijo{
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.iconos__img{
+    width: 45px;
+    height: 50px;
+}
+
+
+/* RESERVA */
+
+
+.reserva{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.reserva__info{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 0px 16px;
+    text-align: center;
+}
+.form{
+    background-image: url(../resources/fondoflor.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 30px;
+    font-weight: bolder;
+    color: white;
+    
+}
+.form__nombre{
+    margin: 5px;
+    padding: 5px;
+}
+.form__input{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    border-color: whitesmoke;
+}
+.form__apellido{
+    margin: 5px;
+    padding: 5px;   
+}
+
+.form__tel{
+    margin: 5px;
+    padding: 5px;   
+}
+.form__email{
+    margin: 5px;
+    padding: 5px;   
+}
+.form__evento{
+    margin: 5px;
+    padding: 5px;   
+}
+.form__fecha{
+    margin: 5px;
+    padding: 5px;   
+}
+.form__personas{
+    margin: 5px;
+    padding: 5px;   
+}
+.form__boton{
+    padding: 5px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* CONTACTO */
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contacto__info{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0px 16px;
+    text-align: center;
+}
+
+.mensaje__info{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0px 16px;
+    text-align: center;
+}
+
+/* AREEGLAR CENTRADO */
+.mensaje {
+    border: 3px solid brown;
+    background-image: url(../resources/fondomargarita.jpg);
+    background-size: contain;
+    border-radius: 15px;
+    width: 70%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    margin: 50px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+.form__mensaje{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+
+
+fieldset{ 
+    border: none;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../resources/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto-Angulina Casa de Té</title>
+</head>
+<body>
+    <header>
+        <nav class="header__nav">
+            <img class="header__logo" src="../resources/favicon.ico">
+            <ul class="header__lista">
+                <li class="header__item"><a href="../index.html">Inicio</a></li>
+                <li class="header__item"><a href="menu.html">Nuestras Delicias</a></li>
+                <li class="header__item"><a href="galeria.html">Galeria</a></li>
+                <li class="header__item"><a href="eventos.html">Eventos</a></li>
+                <li class="header__item"><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+        <section class="contacto">
+            <div class="contacto__info"> 
+            <h1>CONTACTO</h1>
+            <p> En qué podemos ayudarte?
+                Por favor, no dude en ponerse en contacto con cualquier pregunta o consulta.</p>
+            </div>
+            <div class="mensaje__info">
+            <h2>DEJANOS TU MENSAJE</h2>
+            <p>Siempre trataremos de responder lo más rápido.</p>
+            </div>
+
+        </section>
+        <section class="mensaje">
+        <form method="POST" >
+            <fieldset>
+                <div class="form__nombre">
+                    <label for="nombre"> Nombre:</label>
+                    <input class="form__input"type="text" name="nombre"/>
+                </div>
+                <div class="form__apellido">
+                    <label for="apellido"> Apellido:</label>
+                    <input class="form__input"type="text" name="apellido"/>
+                </div>
+                <div class="form__email">
+                    <label for="emal"> E-Mail:</label>
+                    <input class="form__input"type="email" name="email"/>
+                </div>
+                <div>
+                    <label for="mensaje"> Tu Mensaje </label>
+                    <textarea class="form__mensaje" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button class="form__boton">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__ico">
+            <p class="footer__parr"> Siguenos en Nuestras Redes </p>
+            <a href="https://facebook.com"><img class="footer__img" src="../resources/facebook-brands.svg"></a>
+            <a href="https://instagram.com"><img class="footer__img" src="../resources/instagram-brands.svg"></a>
+            <a href="https://twitter.com"><img class="footer__img" src="../resources/twitter-brands.svg"> </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
