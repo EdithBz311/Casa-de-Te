@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color:#73d8ca;
+    background-color: black;
     width: 100vw;
     height: 70px;
     justify-content: space-between;
@@ -46,7 +46,7 @@ header{
 }
 
 body { 
-    background-color: #f4e1c6;}
+    background-color: salmon;}
 
 /* INICIO */
 
