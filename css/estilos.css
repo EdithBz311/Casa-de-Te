@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: grey;
+    background-color: #ffb6b9;
     width: 100vw;
     height: 70px;
     justify-content: space-between;
@@ -46,7 +46,7 @@ header{
 }
 
 body { 
-    background-color: salmon;}
+    background-color: #fae3d9;}
 
 /* INICIO */
 
@@ -163,7 +163,7 @@ body {
     
 }
 .footer__ico {
-    background-color:#73d8ca;
+    background-color:#ffb6b9;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
