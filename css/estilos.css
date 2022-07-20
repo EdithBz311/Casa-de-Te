@@ -4,15 +4,17 @@
 
 header{
     background-color: #ffb6b9;
-    width: 100vw;
+/*     width: 100vw;
     height: 70px;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .header__logo{
-    display: inline;  
+/*     display: inline;  
     align-items: center;
-    padding: 15px;
+    padding: 15px; */
+    width: 60px;
+    height: 60px;
 
 }
 
@@ -35,7 +37,7 @@ header{
 }
 
 .header__item {
-    display: inline;
+/*     display: inline; */
     padding: 30px;
     font-size: 19px;
 }
@@ -675,23 +677,31 @@ header{
 }
 .contacto__info{
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     padding: 0px 16px;
     text-align: center;
+    color: white;
+    font-family: cursive;
+    border: 2px solid chocolate;
+/*     height: 30%;  */
+    justify-content: center;
 }
 
 .mensaje__info{
     width: 100%;
+    margin-top: 0px;
     margin-bottom: 15px;
-    padding: 0px 16px;
+    color: black;
+/*     padding: 0px 16px; */
     text-align: center;
 }
 
 /* AREEGLAR CENTRADO */
 .mensaje {
-    border: 3px solid brown;
-    background-image: url(../resources/fondomargarita.jpg);
-    background-size: contain;
+    border: 3px solido chocolate;
+/*     background-image: url(../resources/fondomargarita.jpg);
+    background-size: contain; */
+    background-color: violet;
     border-radius: 15px;
     width: 70%;
     height: 100%;
