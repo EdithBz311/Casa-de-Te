@@ -55,47 +55,49 @@ body {
     grid-template-columns:1 1 1;
     grid-auto-rows:auto;
     grid-template-areas:
-                        "angulina     angulina     angulina"
-                        "angulinados angulinados  angulinados";
+                        "angulina    none     none";
+    /*                     "angulinados angulinados  angulinados"; */
     border: 1px solid whitesmoke;
     margin: 20px;
-    padding: 10px;
+    margin-bottom: 0%;
+    padding: 3px;
 /*     background-image:url("../resources/tazablanca.jpg"); lo saque*/
     max-width: 100%;
-    height: 20vh; /* comentario de 50vh paso a 20vh p prueba bootstrap */
-    justify-content: center;
-    align-content: flex-start;
-    background-size:cover;
-    background-position:center;
+    height: 10vh; /* comentario de 50vh paso a 20vh p prueba bootstrap */
+/*     justify-content: center; */
+/*     align-content: center; */
+/*     background-size:cover;
+    background-position:center; */
 }
 
 .angulina{
     grid-area:angulina;
     text-align: center;
 } 
-.angulinados{
+/* .angulinados{
     grid-area:angulinados;
 }
-
+ */
 
 .portada__titulo { 
     font-size:50px;
+    font-family: cursive;
     color:white;
     font-style: oblique;
-    line-height: 3;
+    line-height: 1;
+    text-align: start;
 }
 
-.portada__parrafo{
+/* .portada__parrafo{
     font-size: 25px;
     color:black;
     text-align: center;
-}
+} */
 
 
 
 
-
-.historia{
+/* .historia{
     display: grid;
     grid-template-columns: 1 1 2;
     background-color: antiquewhite;
@@ -105,16 +107,16 @@ body {
     height: 70vh;
     margin: 20px;
     padding: 10px;
-}
+} */
 
 
-.historia__titulo{
+/* .historia__titulo{
     grid-column: 1/2;
     font-size: 35px;
     color: black;
     font-style: oblique;
     text-align: left;
-/*     margin-bottom: 10px;  */
+
     padding: 0px 16px;
     line-height: 1;
 }   
@@ -135,10 +137,9 @@ body {
     color:black;
     text-align: left;
     padding: 0px 16px;
-}
+} */
 
 
-    
 
 
 /* .historia__imagen 
