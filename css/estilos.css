@@ -9,6 +9,13 @@ header{
     justify-content: space-between; */
 }
 
+/* .nav-link{
+    color: ghostwhite;
+    text-decoration: none
+} */
+.active{
+    color: grey;
+}
 .header__logo{
 /*     display: inline;  
     align-items: center;
@@ -18,7 +25,7 @@ header{
 
 }
 
-.header__nav{
+/* .header__nav{
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
@@ -34,7 +41,7 @@ header{
     justify-content: flex-end;
     align-items: flex-end;
     flex-grow: 2;
-}
+} */
 
 .header__item {
 /*     display: inline; */
@@ -42,10 +49,10 @@ header{
     font-size: 19px;
 }
 
-.header__item a {
+/* .header__item a {
     color: ghostwhite;
     text-decoration: none;
-}
+} */
 
 body { 
     background-color: #fae3d9;}
@@ -199,7 +206,7 @@ body {
 
 
 
-@media (min-width: 320px) and (max-width: 575px) {
+@media (min-width: 319px) and (max-width: 575px) {
 
 header{
     display: flex;
@@ -236,7 +243,7 @@ ul{
 .angulina{
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 40px;
+    font-size: 32px;
     color: white;
     text-align: center;
     line-height: 70px;
@@ -697,11 +704,11 @@ header{
 }
 
 /* AREEGLAR CENTRADO */
-.mensaje {
-    border: 3px solido chocolate;
+/* .mensaje {
+    border: 3px solido chocolate; */
 /*     background-image: url(../resources/fondomargarita.jpg);
     background-size: contain; */
-    background-color: violet;
+/*     background-color: violet;
     border-radius: 15px;
     width: 70%;
     height: 100%;
@@ -715,7 +722,7 @@ header{
     font-weight: bolder;
     color: white;
 }
-
+ */
 
 .form__mensaje{
     display: flex;
