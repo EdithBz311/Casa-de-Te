@@ -13,9 +13,16 @@ header{
     color: ghostwhite;
     text-decoration: none
 } */
-.active{
-    color: grey;
+
+li a{
+    line-height: 1;
 }
+li a:hover{
+    color: blue;
+    transform: scale(1.25,1.25);
+    transition: all 0,5ms;
+}
+
 .header__logo{
 /*     display: inline;  
     align-items: center;
@@ -32,7 +39,6 @@ header{
     justify-content: flex-end;
     align-items: flex-end;
 }
-
 .header__lista {
     display: flex;
     list-style: none;
@@ -125,12 +131,9 @@ body {
     color: black;
     font-style: oblique;
     text-align: left;
-
     padding: 0px 16px;
     line-height: 1;
 }   
-
-
 .historia__foto{
     grid-column: 2/4;
     width: 300px;
@@ -139,7 +142,6 @@ body {
     background-size: cover;
     background-position:center;
 }
-
 .historia__parrafo{
     grid-column: 1/2;
     font-size: 20px;
@@ -156,7 +158,6 @@ body {
     height:350px;
     padding: 25px 25px;
     display: flex;
-
 .historia__imagen--destacada
     width: 400px;
     height:400px;
@@ -209,11 +210,11 @@ body {
 @media (min-width: 319px) and (max-width: 575px) {
 
 header{
-    display: flex;
-    width: fit-content;
+/*     display: flex; */
+    width: auto;
     height: auto;
 }
-.header__nav{
+/* .header__nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,7 +227,7 @@ ul{
     justify-content: center;
     flex-grow: 0;
     align-items: center;
-} 
+} */ 
 
 .portada{
     height: auto;
@@ -317,16 +318,16 @@ ul{
 @media (min-width: 576px) and (max-width: 992px){
 
 header{
-    width: fit-content;
+    width: auto;
     height: auto;
     
 }
 
-.header__item {
+/* .header__item {
     display: inline;
     padding: 10px;
     margin-bottom: 10px;
-}
+} */
 
 .portada__parrafo{
     font-size: 20px;

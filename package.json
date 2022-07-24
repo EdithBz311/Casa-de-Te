@@ -1,0 +1,21 @@
+{
+  "name": "casa-de-te-proyecto",
+  "version": "1.0.0",
+  "description": "<h1> Angulina Casa de té</h1>\r <p> Sitio pensado para proyecto desarrollo web <p>\r <h2> Tecnologías usadas </h2>\r <ul>\r <li>Html5</li>\r <li>Css</li>\r <li>Bootstrap</li>\r <li>SAAS</li>\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdithBz311/Casa-de-Te.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdithBz311/Casa-de-Te/issues"
+  },
+  "homepage": "https://github.com/EdithBz311/Casa-de-Te#readme"
+}
