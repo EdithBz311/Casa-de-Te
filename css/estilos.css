@@ -61,7 +61,9 @@ li a:hover{
 } */
 
 body { 
-    background-color: #fae3d9;}
+    background-color: #fae3d9;
+    font-family: 'Roboto', sans-serif; 
+}
 
 /* INICIO */
 
@@ -87,12 +89,8 @@ body {
 
 .angulina{
     grid-area:angulina;
-    text-align: center;
 } 
-/* .angulinados{
-    grid-area:angulinados;
-}
- */
+
 
 .portada__titulo { 
     font-size:50px;
@@ -357,6 +355,7 @@ header{
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+    font-family: cursive;
 }
 
 .infomenu {
@@ -372,10 +371,11 @@ header{
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    border: 1px solid chocolate ;
-
+    border: 1px solid chocolate;
 }
-
+.croissant h2{
+    font-family: cursive;
+}
 .croissant__img{
     width: 65%;
     height: 70%;
@@ -435,6 +435,7 @@ header{
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+    font-family: cursive;
 }
 
 .galeria__info {
@@ -581,11 +582,22 @@ header{
 
 /* EVENTOS */
 
+.carousel-inner img{
+    width: 100%;
+    max-height: 600px;
+}
+.carousel-inner{
+    height:600px
+}
+
 .evento__info{
     width: 100%;
     margin-bottom: 15px;
     padding: 0px 16px;
     text-align: center;
+}
+.evento__info h1{
+    font-family: cursive;
 }
 .padreico{
     display: flex;
@@ -630,6 +642,9 @@ header{
     margin-bottom: 5px;
     padding: 0px 16px;
     text-align: center;
+}
+.reserva__info h2{
+    font-family: cursive;
 }
 /* .form{
     background-image: url(../resources/fondoflor.jpg);
@@ -722,39 +737,16 @@ header{
 /*     padding: 0px 16px; */
     text-align: center;
 }
-
-/* AREEGLAR CENTRADO */
-/* .mensaje {
-    border: 3px solido chocolate; */
-/*     background-image: url(../resources/fondomargarita.jpg);
-    background-size: contain; */
-/*     background-color: violet;
-    border-radius: 15px;
-    width: 70%;
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    flex-wrap:wrap;
-    margin: 50px;
-    padding-bottom: 50px;
-    font-weight: bolder;
-    color: white;
+.mensaje__info h2, h3{
+    font-family: cursive;
 }
- */
 
-.form__mensaje{
+/* .form__mensaje{
     display: flex;
     justify-content: center;
     align-content: center;
     border-radius: 5px;
     border-color: whitesmoke;
     padding-bottom: 20px;
-}
+} */
 
-
-
-fieldset{ 
-    border: none;
-}
