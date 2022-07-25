@@ -199,7 +199,6 @@ body {
 .ico__hover:hover{
     transform: scale(1.25,1.25);
     transition: all 0,5ms;
-
 }
 
 
@@ -229,7 +228,7 @@ ul{
     align-items: center;
 } */ 
 
-.portada{
+/* .portada{
     height: auto;
     width: fit-content;
     display: flex;
@@ -238,7 +237,7 @@ ul{
     align-items: center;   
     margin: 5px;
     padding: 5px;
-}
+} */
     
     
 .angulina{
@@ -258,7 +257,7 @@ ul{
     line-height: 20px;
 }
     
-.historia{
+/* .historia{
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
@@ -288,7 +287,7 @@ ul{
     background-image: url("../resources/gente.jpg");
     background-size: cover;
     justify-content: center;
-}
+} */
 
 .historia__parrafo{
     grid-column: 1/2;
@@ -353,7 +352,6 @@ header{
     width: 100vw;
     max-height: auto;
     justify-content: center;
-
 }
 .menu{
     width: 100%;
@@ -364,8 +362,9 @@ header{
 .infomenu {
     width: 100%;
     text-align: center;
-    margin-bottom: 15px ;
+    margin-bottom: 20px;
 }
+
 .croissant{
     width: 350px;
     height: auto;
@@ -374,37 +373,39 @@ header{
     align-items: center;
     margin: 20px;
     border: 1px solid chocolate ;
+
 }
 
 .croissant__img{
-    width: 50%;
-    height: 50%;
+    width: 65%;
+    height: 70%;
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .corissant__info{
     width: 90%;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     line-height: 1;
 }
-.contenedor{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 
-}
 .croissant__boton{
     background-color: whitesmoke;
     padding:5px;
+    border-radius: 5px;
     border: none;
-
+}
+.croissant__boton:hover{
+    transform: scale(1.25,1.25);
+    transition: all 0,4ms;
+    color: rgb(123, 123, 241);
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
 
     .header__item {
-        display: inline;
+/*         display: inline; */
         padding: 10px;
         margin-bottom: 10px;
     }
@@ -437,31 +438,36 @@ header{
 }
 
 .galeria__info {
-    width: fit-content;
+
     margin-bottom: 15px;
     padding: 0px 16px;
-    text-align: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     
 }
 .galeria__grid{
     display: grid;
     width: 100%;
-    height: auto;
+    height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
                         "spill             copas             tetera__dorada"
                         "flor__azul        mesa              globos"
-                        "mesita            taza__cartel      sirviendote";
-    gap:5px;    
-    padding: 10px;  
+                        "mesita            taza__cartel      sirviendote"
+                        "ventana           babysh            servicio";
+    gap:10px;    
+    padding: 30px;  
+    margin: auto;
     background-color: antiquewhite;           
 }
 
 .galeria__contenedor{
-    height: 100%;
+    width: 100%;
+    height: auto;
     border-radius: 3%;
+
 }
 .galeria__contenedor img{
     width: 100%;
@@ -497,6 +503,15 @@ header{
 .mesita{
     grid-area: mesita;
 }
+.ventana{
+    grid-area: ventana;
+}
+.babysh{
+    grid-area: babysh;
+}
+.servicio{
+    grid-area: servicio;
+}
 
 /* MEDIA QUERIE CEL DE GALERIA */
 
@@ -520,7 +535,10 @@ header{
                         "globos"
                         "mesita            
                         "taza__cartel"      
-                        "sirviendote";
+                        "sirviendote"
+                        "ventana"
+                        "babysh"
+                        "servicio";
 }
 
 }
@@ -544,7 +562,8 @@ header{
                             "tetera__dorada  flor__azul"
                             "mesa             globos"
                             "mesita           taza__cartel"      
-                            "sirviendote       none";
+                            "sirviendote       none"
+                            "ventana"          "babysh";
     }
 }
 
