@@ -55,13 +55,10 @@ li a:hover{
     font-size: 19px;
 }
 
-/* .header__item a {
-    color: ghostwhite;
-    text-decoration: none;
-} */
+
 
 body { 
-    background-color: #fae3d9;
+    background-image: url(../resources/bgt.jpg);
     font-family: 'Roboto', sans-serif; 
 }
 
@@ -74,7 +71,7 @@ body {
     grid-template-areas:
                         "angulina    none     none";
     /*                     "angulinados angulinados  angulinados"; */
-    border: 1px solid whitesmoke;
+    border: none;
     margin: 20px;
     margin-bottom: 0%;
     padding: 3px;
@@ -96,75 +93,16 @@ body {
     font-size:50px;
     font-family: cursive;
     color:white;
-    font-style: oblique;
     line-height: 1;
     text-align: start;
 }
 
 .history{
     font-family: cursive;
+    color: white;
 }
-/* .portada__parrafo{
-    font-size: 25px;
-    color:black;
-    text-align: center;
-} */
 
 
-
-
-/* .historia{
-    display: grid;
-    grid-template-columns: 1 1 2;
-    background-color: antiquewhite;
-    justify-content: center;
-    border: 2px solid whitesmoke;
-    max-width: 100%;
-    height: 70vh;
-    margin: 20px;
-    padding: 10px;
-} */
-
-
-/* .historia__titulo{
-    grid-column: 1/2;
-    font-size: 35px;
-    color: black;
-    font-style: oblique;
-    text-align: left;
-    padding: 0px 16px;
-    line-height: 1;
-}   
-.historia__foto{
-    grid-column: 2/4;
-    width: 300px;
-    height: 400px;
-    background-image: url("../resources/gente.jpg");
-    background-size: cover;
-    background-position:center;
-}
-.historia__parrafo{
-    grid-column: 1/2;
-    font-size: 20px;
-    color:black;
-    text-align: left;
-    padding: 0px 16px;
-} */
-
-
-
-
-/* .historia__imagen 
-    width:250px;
-    height:350px;
-    padding: 25px 25px;
-    display: flex;
-.historia__imagen--destacada
-    width: 400px;
-    height:400px;
-    padding: 25px 25px;
-    display: flex;
-*/
 
 
 
@@ -359,6 +297,7 @@ header{
     text-align: center;
     margin-bottom: 20px;
     font-family: cursive;
+    color: white;
 }
 
 .infomenu {
@@ -374,10 +313,12 @@ header{
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    border: 1px solid chocolate;
+    border: 1px solid #ffb6b9;
+    border-radius: 15px;    
 }
 .croissant h2{
     font-family: cursive;
+    color: white;
 }
 .croissant__img{
     width: 65%;
@@ -439,6 +380,7 @@ header{
     text-align: center;
     margin-bottom: 20px;
     font-family: cursive;
+    color: white;
 }
 
 .galeria__info {
@@ -452,25 +394,24 @@ header{
 }
 .galeria__grid{
     display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+    height: auto;
+    padding: 20px;  
+    margin:10px 10px;
+    justify-content: center; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
+    column-gap: 15px;
+    row-gap: 20px;
     grid-template-areas:
-                        "spill             copas             tetera__dorada"
-                        "flor__azul        mesa              globos"
-                        "mesita            taza__cartel      sirviendote"
-                        "ventana           babysh            servicio";
-    gap:10px;    
-    padding: 30px;  
-    margin: auto;
-    background-color: antiquewhite;           
+                        "spill   copas   tetera__dorada  flor__azul "
+                        "mesa    globos  ventana  taza__cartel"                         
+                        "mesita  babysh  servicio  sirviendote";  
 }
 
 .galeria__contenedor{
     width: 100%;
-    height: auto;
-    border-radius: 3%;
+    max-height: auto;
 
 }
 .galeria__contenedor img{
@@ -600,8 +541,9 @@ header{
     padding: 0px 16px;
     text-align: center;
 }
-.evento__info h1{
+.evento__info h1 , h2{
     font-family: cursive;
+    color: white;
 }
 .padreico{
     display: flex;
@@ -728,7 +670,7 @@ header{
     text-align: center;
     color: white;
     font-family: cursive;
-    border: 2px solid chocolate;
+    border: none;
 /*     height: 30%;  */
     justify-content: center;
 }
@@ -751,6 +693,7 @@ header{
 }
 .mensaje__info h2, h3{
     font-family: cursive;
+    color: white;
 }
 
 /* .form__mensaje{
