@@ -101,6 +101,9 @@ body {
     text-align: start;
 }
 
+.history{
+    font-family: cursive;
+}
 /* .portada__parrafo{
     font-size: 25px;
     color:black;
@@ -588,6 +591,7 @@ header{
 }
 .carousel-inner{
     height:600px
+    margin-bottom 5px;
 }
 
 .evento__info{
@@ -729,6 +733,14 @@ header{
     justify-content: center;
 }
 
+.petalos img{
+    width: 100%;
+    max-height: 550px;    
+}
+.petalos{
+    width: 100%;
+    height:auto
+}
 .mensaje__info{
     width: 100%;
     margin-top: 0px;
