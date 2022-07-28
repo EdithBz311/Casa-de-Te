@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/* colores */
+/* letras */
+/* $font-titulo:  preguntar a la profe como colocar otra fuente*/
+/* tamaños : aun tengo definir :| */
 .footer {
   display: flex;
   align-items: flex-end;
@@ -32,15 +37,15 @@ li a {
     transform: scale(1.25, 1.25);
     transition: all 0,5ms; }
 
+/* INICI0-index */
 * {
   margin: 0px;
   padding: 0px; }
 
 body {
   background-image: url(../resources/bgt.jpg);
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
-/* INICI0-index */
 .main__principal {
   display: grid;
   grid-template-columns: 1 1 1;
@@ -108,13 +113,13 @@ body {
     margin-bottom: 15px;
     margin-top: 10px; }
   .croissant button {
-    background-color: whitesmoke;
+    background-color: #cef6ee;
     padding: 5px;
     border-radius: 5px;
     border: none;
     align-content: center; }
     .croissant button:hover {
-      transform: scale(1, 1);
+      transform: scale(1.2, 1.2);
       transition: all 0,4ms;
       color: #7b7bf1; }
 
@@ -122,6 +127,7 @@ body {
 .galeria__titulo {
   width: 100%;
   text-align: center;
+  margin-top: 5px;
   margin-bottom: 20px;
   font-family: cursive;
   color: white; }
@@ -201,7 +207,7 @@ h1, h2 {
   justify-content: center;
   flex-wrap: wrap; }
   .iconos__padre {
-    background-color: antiquewhite;
+    background-color: #cef6ee;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -287,7 +293,7 @@ h1, h2 {
     .footer__parr {
       text-align: center;
       font-size: 23px;
-      color: whitesmoke; }
+      color: white; }
     .footer__redes {
       width: 60px; } }
 
@@ -306,7 +312,7 @@ h1, h2 {
     .footer__parr {
       text-align: center;
       font-size: 23px;
-      color: whitesmoke; }
+      color: white; }
     .footer__redes {
       width: 60px; } }
 

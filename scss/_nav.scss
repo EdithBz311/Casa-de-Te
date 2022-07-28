@@ -1,13 +1,15 @@
 header{
-    background-color: #ffb6b9;
+    background-color: $color-principal;
 }
 
 
 li a{
     line-height: 1;
+    
 
     &:hover{
         transform: scale(1.25,1.25);
         transition: all 0,5ms;
+        
     }
 }

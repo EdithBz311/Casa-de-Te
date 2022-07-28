@@ -13,7 +13,7 @@
     
         h1{
         font-size: 29px;
-        color: white;
+        color: $color-terciario;
         text-align: center;
         line-height: 35px;
         }
@@ -39,7 +39,7 @@
         &__parr{
             text-align: center;
             font-size: 23px;
-            color: whitesmoke;
+            color: $color-terciario;
         }
     
         &__redes{
@@ -75,7 +75,7 @@
             &__parr{
                 text-align: center;
                 font-size: 23px;
-                color: whitesmoke;
+                color: $color-terciario;
             }
         
             &__redes{

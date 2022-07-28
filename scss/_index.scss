@@ -1,0 +1,45 @@
+/* INICI0-index */
+
+
+*{ margin: 0px;
+    padding: 0px;
+}
+
+body { 
+    background-image: url(../resources/bgt.jpg);
+    font-family: $font-principal; 
+}
+
+
+
+.main__principal{
+    display:grid;
+    grid-template-columns:1 1 1;
+    grid-auto-rows:auto;
+    grid-template-areas:
+                        "angulina    none     none";
+    border: none;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 3px;
+    max-width: 100%;
+    height: 6vh;
+
+    .angulina{
+        grid-area:angulina;
+    } 
+
+    h1 { 
+        font-size:48px;
+        font-family: cursive ;
+        color: $color-terciario;
+        line-height: 1;
+        text-align: start;
+    }
+}
+
+
+.history{
+    font-family: cursive;
+    color: $color-terciario;
+}

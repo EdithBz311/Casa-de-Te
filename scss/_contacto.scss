@@ -1,0 +1,42 @@
+/* CONTACTO */
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+&__info{
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px 16px;
+    text-align: center;
+    color: $color-terciario;
+    font-family: cursive;
+    border: none;
+    justify-content: center;
+}
+
+&__petalos{
+    width: 100%;
+    height:auto;
+
+    & img{
+        width: 100%;
+        max-height: 550px;    
+    }
+}
+}
+.mensaje{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+        h2, h3{
+        font-family: cursive;
+        color: $color-terciario;
+        }     
+    }
