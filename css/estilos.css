@@ -1,668 +1,239 @@
-*{ margin: 0px;
-    padding: 0px;
-}
-
-header{
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end; }
+  .footer__ico {
     background-color: #ffb6b9;
-/*     width: 100vw;
-    height: 70px;
-    justify-content: space-between; */
-}
-
-/* .nav-link{
-    color: ghostwhite;
-    text-decoration: none
-} */
-
-li a{
-    line-height: 1;
-}
-li a:hover{
-    transform: scale(1.25,1.25);
-    transition: all 0,5ms;
-}
-
-.header__logo{
-/*     display: inline;  
-    align-items: center;
-    padding: 15px; */
-    width: 60px;
-    height: 60px;
-
-}
-
-/* .header__nav{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.header__lista {
-    display: flex;
-    list-style: none;
-    padding: 0 16px;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-grow: 2;
-} */
-
-.header__item {
-/*     display: inline; */
-    padding: 30px;
-    font-size: 19px;
-}
-
-
-
-body { 
-    background-image: url(../resources/bgt.jpg);
-    font-family: 'Roboto', sans-serif; 
-}
-
-/* INICIO */
-
-.main__principal{
-    display:grid;
-    grid-template-columns:1 1 1;
-    grid-auto-rows:auto;
-    grid-template-areas:
-                        "angulina    none     none";
-    /*                     "angulinados angulinados  angulinados"; */
-    border: none;
-    margin: 20px;
-    margin-bottom: 0%;
-    padding: 3px;
-/*     background-image:url("../resources/tazablanca.jpg"); lo saque*/
-    max-width: 100%;
-    height: 10vh; /* comentario de 50vh paso a 20vh p prueba bootstrap */
-/*     justify-content: center; */
-/*     align-content: center; */
-/*     background-size:cover;
-    background-position:center; */
-}
-
-.angulina{
-    grid-area:angulina;
-} 
-
-
-.portada__titulo { 
-    font-size:50px;
-    font-family: cursive;
-    color:white;
-    line-height: 1;
-    text-align: start;
-}
-
-.history{
-    font-family: cursive;
-    color: white;
-}
-
-
-
-
-
-.footer{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    
-}
-.footer__ico {
-    background-color:#ffb6b9;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 1%;
-    position: relative;
-}
-
-
-.footer__parr{
+    padding: 10px;
+    position: relative; }
+  .footer__parr {
     text-align: center;
     font-size: 24px;
-    color: whitesmoke;
-}
-.footer__redes{
+    color: whitesmoke; }
+  .footer__redes {
     display: inline;
-    width: 75px;
-    padding:0px 16px;
-}
+    width: 68px;
+    padding: 0px 16px; }
+    .footer__redes:hover {
+      transform: scale(1.25, 1.25);
+      transition: all 0,5ms; }
 
-.ico__hover:hover{
-    transform: scale(1.25,1.25);
-    transition: all 0,5ms;
-}
+header {
+  background-color: #ffb6b9; }
 
+li a {
+  line-height: 1; }
+  li a:hover {
+    transform: scale(1.25, 1.25);
+    transition: all 0,5ms; }
 
-/* MEDIA QUERIE CEL */
+* {
+  margin: 0px;
+  padding: 0px; }
 
+body {
+  background-image: url(../resources/bgt.jpg);
+  font-family: 'Roboto', sans-serif; }
 
-
-@media (min-width: 319px) and (max-width: 575px) {
-
-header{
-/*     display: flex; */
-    width: auto;
-    height: auto;
-}
-/* .header__nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    max-height: auto;
-}  
-ul{
-    flex-direction: column;
-    justify-content: center;
-    flex-grow: 0;
-    align-items: center;
-} */ 
-
-/* .portada{
-    height: auto;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;   
-    margin: 5px;
-    padding: 5px;
-} */
-    
-    
-.angulina{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    font-size: 32px;
+/* INICI0-index */
+.main__principal {
+  display: grid;
+  grid-template-columns: 1 1 1;
+  grid-auto-rows: auto;
+  grid-template-areas: "angulina    none     none";
+  border: none;
+  margin: 20px;
+  margin-bottom: 0px;
+  padding: 3px;
+  max-width: 100%;
+  height: 6vh; }
+  .main__principal .angulina {
+    grid-area: angulina; }
+  .main__principal h1 {
+    font-size: 48px;
+    font-family: cursive;
     color: white;
-    text-align: center;
-    line-height: 70px;
-    }
-    
-.angulinados{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    font-size: 15px;
-    text-align: center;
-    line-height: 20px;
-}
-    
-/* .historia{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
-    background-color:antiquewhite;
-    justify-content: center;
-    border: 2px solid whitesmoke;
-    width: fit-content;
-    height: auto;
-    margin: 5px;
-    padding: 5px;
-}
-    
-    
-.historia__titulo{
-    grid-column: 1/2;
-    font-size: 28px;
-    color: black;
-    font-style: oblique;
-    text-align: center;
+    line-height: 1;
+    text-align: start; }
 
-}   
+.history {
+  font-family: cursive;
+  color: white; }
 
-.historia__foto{
-    grid-column: 1/2;
-    width: 300px;
-    height: 400px;
-    background-image: url("../resources/gente.jpg");
-    background-size: cover;
-    justify-content: center;
-} */
-
-.historia__parrafo{
-    grid-column: 1/2;
-    font-size: 10px;
-    color:black;
-    text-align: center;
-    line-height: 20px;
-}
-    
-.footer{
-    width: fit-content;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    
-}
-
-.footer__ico{
-    justify-content: center;
-}
-
-}
-
-/* MEDIA QUERIE TABLET */
-
-@media (min-width: 576px) and (max-width: 992px){
-
-header{
-    width: auto;
-    height: auto;
-    
-}
-
-/* .header__item {
-    display: inline;
-    padding: 10px;
-    margin-bottom: 10px;
-} */
-
-.portada__parrafo{
-    font-size: 20px;
-}
-.historia__parrafo{
-    font-size: 15px;
-}
-
-.historia__foto{
-    width: 200px;
-    height: 300px;
-}
-
-}
-
-
-
-/* NUESTRAS DELICIAS / Responsive/Media querie tablet*/ 
-
-.contenedor__menu{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    max-height: auto;
-    justify-content: center;
-}
-.menu{
+/* NUESTRAS DELICIAS  */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-height: auto;
+  justify-content: center; }
+  .menu__titulo {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
     font-family: cursive;
-    color: white;
-}
-
-.infomenu {
+    color: white; }
+  .menu__info {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px; }
 
-.croissant{
-    width: 350px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    border: 1px solid #ffb6b9;
-    border-radius: 15px;    
-}
-.croissant h2{
-    font-family: cursive;
-    color: white;
-}
-.croissant__img{
-    width: 65%;
-    height: 70%;
-    margin-bottom: 15px;
-    margin-top: 10px;
-}
-
-.corissant__info{
+.croissant {
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid #ffb6b9;
+  border-radius: 15px; }
+  .croissant__info p {
     width: 90%;
     text-align: center;
     margin-bottom: 5px;
-    line-height: 1;
-}
-
-.croissant__boton{
+    line-height: 1; }
+  .croissant h2 {
+    font-family: cursive;
+    color: white;
+    text-align: center; }
+  .croissant__img {
+    width: 65%;
+    height: 70%;
+    margin-bottom: 15px;
+    margin-top: 10px; }
+  .croissant button {
     background-color: whitesmoke;
-    padding:5px;
+    padding: 5px;
     border-radius: 5px;
     border: none;
-}
-.croissant__boton:hover{
-    transform: scale(1.25,1.25);
-    transition: all 0,4ms;
-    color: rgb(123, 123, 241);
-}
-
-@media (min-width: 576px) and (max-width: 992px) {
-
-    .header__item {
-/*         display: inline; */
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    align-content: center; }
+    .croissant button:hover {
+      transform: scale(1, 1);
+      transition: all 0,4ms;
+      color: #7b7bf1; }
 
 /* GALERIA */
-
-.galeria__titulo{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: cursive;
-    color: white;
-}
+.galeria__titulo {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: cursive;
+  color: white; }
 
 .galeria__info {
+  margin-bottom: 15px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
 
-    margin-bottom: 15px;
-    padding: 0px 16px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-}
-.galeria__grid{
-    display: grid;
-    width: fit-content;
-    height: auto;
-    padding: 20px;  
-    margin:10px 10px;
-    justify-content: center; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 15px;
-    row-gap: 20px;
-    grid-template-areas:
-                        "spill   copas   tetera__dorada  flor__azul "
-                        "mesa    globos  ventana  taza__cartel"                         
-                        "mesita  babysh  servicio  sirviendote";  
-}
+.galeria__grid {
+  display: grid;
+  width: fit-content;
+  height: auto;
+  padding: 20px;
+  margin: 10px 10px;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 15px;
+  row-gap: 20px;
+  grid-template-areas: "spill   copas   tetera__dorada  flor__azul " "mesa    globos  ventana  taza__cartel"                          "mesita  babysh  servicio  sirviendote"; }
+  .galeria__grid .tetera__dorada {
+    grid-area: tetera__dorada; }
+  .galeria__grid .taza__cartel {
+    grid-area: taza__cartel; }
+  .galeria__grid .sirviendote {
+    grid-area: sirviendote; }
+  .galeria__grid .flor__azul {
+    grid-area: flor__azul; }
+  .galeria__grid .mesa {
+    grid-area: mesa; }
+  .galeria__grid .globos {
+    grid-area: globos; }
+  .galeria__grid .spill {
+    grid-area: spill; }
+  .galeria__grid .copas {
+    grid-area: copas; }
+  .galeria__grid .mesita {
+    grid-area: mesita; }
+  .galeria__grid .ventana {
+    grid-area: ventana; }
+  .galeria__grid .babysh {
+    grid-area: babysh; }
+  .galeria__grid .servicio {
+    grid-area: servicio; }
 
-.galeria__contenedor{
-    width: 100%;
-    max-height: auto;
+.galeria__contenedor {
+  width: 100%;
+  max-height: auto; }
 
-}
-.galeria__contenedor img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.tetera__dorada{
-    grid-area:tetera__dorada;
-    
-} 
-.taza__cartel{
-    grid-area: taza__cartel;
-}
-.sirviendote{
-    grid-area: sirviendote;
-}
-.flor__azul{
-    grid-area: flor__azul;
-}
-.mesa{
-    grid-area: mesa;
-}
-.globos{
-    grid-area: globos;
-}
-.spill{
-    grid-area: spill;
-}
-.copas{
-    grid-area: copas;
-}
-.mesita{
-    grid-area: mesita;
-}
-.ventana{
-    grid-area: ventana;
-}
-.babysh{
-    grid-area: babysh;
-}
-.servicio{
-    grid-area: servicio;
-}
-
-/* MEDIA QUERIE CEL DE GALERIA */
-
-@media (min-width: 320px) and (max-width: 575px) {
-
-.galeria__grid{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    height: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    column-gap: 15px;
-    row-gap: 20px;
-    grid-template-areas:
-                        "spill"             
-                        "copas"             
-                        "tetera__dorada"    
-                        "flor__azul"
-                        "mesa"              
-                        "globos"
-                        "mesita            
-                        "taza__cartel"      
-                        "sirviendote"
-                        "ventana"
-                        "babysh"
-                        "servicio";
-}
-
-}
-
-
-/* MEDIA QUERIE TABLE GALERIA*/
-
-
-@media (min-width: 576px) and (max-width: 992px) {
-
-.galeria__grid{
-    flex-direction: column;
-    width: fit-content;
-    height: auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 15px;
-    row-gap: 20px; 
-    grid-template-areas:
-                            "spill           copas"             
-                            "tetera__dorada  flor__azul"
-                            "mesa             globos"
-                            "mesita           taza__cartel"      
-                            "sirviendote       none"
-                            "ventana"          "babysh";
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
+.galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 /* EVENTOS */
-
-.carousel-inner img{
+.carousel-inner {
+  height: 600px margin-bottom 5px; }
+  .carousel-inner img {
     width: 100%;
-    max-height: 600px;
-}
-.carousel-inner{
-    height:600px
-    margin-bottom 5px;
-}
+    max-height: 600px; }
 
-.evento__info{
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 0px 16px;
-    text-align: center;
-}
-.evento__info h1 , h2{
-    font-family: cursive;
-    color: white;
-}
-.padreico{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+.evento__info {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0px 16px;
+  text-align: center; }
 
-.iconos{
+h1, h2 {
+  font-family: cursive;
+  color: white; }
+
+.iconos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .iconos__padre {
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center; 
-    border-radius: 5px;   
-}
-
-
-.iconos__hijo{
+    align-items: center;
+    border-radius: 5px; }
+  .iconos__hijo {
     margin: 10px;
-    padding: 20px;
-    
-}
-
-.iconos__img{
+    padding: 20px; }
+  .iconos__img {
     width: 45px;
-    height: 50px;
-}
+    height: 50px; }
 
-
-/* RESERVA */
-
-
-.reserva{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.reserva__info{
+/* EVENTO - Reserva */
+.reserva {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .reserva__info {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 5px;
     padding: 0px 16px;
-    text-align: center;
-}
-.reserva__info h2{
-    font-family: cursive;
-}
-/* .form{
-    background-image: url(../resources/fondoflor.jpg);
-    background-size: cover;
-    border-radius: 15px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 50px;
-    padding: 30px;
-    font-weight: bolder;
-    color: white;
-    
-}
-.form__nombre{
-    margin: 5px;
-    padding: 5px;
-}
-.form__input{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    border-radius: 5px;
-    border-color: whitesmoke;
-}
-.form__apellido{
-    margin: 5px;
-    padding: 5px;   
-}
-
-.form__tel{
-    margin: 5px;
-    padding: 5px;   
-}
-.form__email{
-    margin: 5px;
-    padding: 5px;   
-}
-.form__evento{
-    margin: 5px;
-    padding: 5px;   
-}
-.form__fecha{
-    margin: 5px;
-    padding: 5px;   
-}
-.form__personas{
-    margin: 5px;
-    padding: 5px;   
-}
-.form__boton{
-    padding: 5px;
-    background-color: whitesmoke;
-    border: none;
-    border-radius: 5px;
-} */
-
-
-
-
-
+    text-align: center; }
+    .reserva__info h2 {
+      font-family: cursive; }
 
 /* CONTACTO */
-
-.contacto{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.contacto__info{
+.contacto {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .contacto__info {
     width: 100%;
     margin-bottom: 0px;
     padding: 0px 16px;
@@ -670,37 +241,96 @@ header{
     color: white;
     font-family: cursive;
     border: none;
-/*     height: 30%;  */
-    justify-content: center;
-}
+    justify-content: center; }
+  .contacto__petalos {
+    width: 100%;
+    height: auto; }
+    .contacto__petalos img {
+      width: 100%;
+      max-height: 550px; }
 
-.petalos img{
-    width: 100%;
-    max-height: 550px;    
-}
-.petalos{
-    width: 100%;
-    height:auto
-}
-.mensaje__info{
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    color: black;
-/*     padding: 0px 16px; */
-    text-align: center;
-}
-.mensaje__info h2, h3{
+.mensaje {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+  .mensaje h2, .mensaje h3 {
     font-family: cursive;
-    color: white;
-}
+    color: white; }
 
-/* .form__mensaje{
-    display: flex;
+/* MEDIA QUERIE CEL indx*/
+@media (min-width: 320px) and (max-width: 575px) {
+  header {
+    width: auto;
+    height: auto; }
+  .main__principal {
+    margin-bottom: 0.5px; }
+    .main__principal h1 {
+      font-size: 29px;
+      color: white;
+      text-align: center;
+      line-height: 35px; }
+    .main__principal .angulina {
+      grid-column: 1/2;
+      grid-row: 1/2; }
+  .footer {
+    width: fit-content;
+    height: auto;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
-    border-radius: 5px;
-    border-color: whitesmoke;
-    padding-bottom: 20px;
-} */
+    align-content: center; }
+    .footer__ico {
+      justify-content: center; }
+    .footer__parr {
+      text-align: center;
+      font-size: 23px;
+      color: whitesmoke; }
+    .footer__redes {
+      width: 60px; } }
 
+/* MEDIA QUERIE TABLET - indx*/
+@media (min-width: 576px) and (max-width: 992px) {
+  .main__principal h1 {
+    font-size: 40px; }
+  .footer {
+    width: fit-content;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    .footer__ico {
+      justify-content: center; }
+    .footer__parr {
+      text-align: center;
+      font-size: 23px;
+      color: whitesmoke; }
+    .footer__redes {
+      width: 60px; } }
+
+/* MEDIA QUERIE CEL DE GALERIA */
+@media (min-width: 320px) and (max-width: 575px) {
+  .galeria__grid {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: 15px;
+    row-gap: 20px;
+    grid-template-areas: "spill"              "copas"              "tetera__dorada"     "flor__azul" "mesa"               "globos" "mesita"             "taza__cartel"       "sirviendote" "ventana" "babysh" "servicio"; } }
+
+/* MEDIA QUERIE TABLE GALERIA*/
+@media (min-width: 576px) and (max-width: 992px) {
+  .galeria__grid {
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+    grid-template-areas: "spill           copas"              "tetera__dorada  flor__azul" "mesa             globos" "mesita           taza__cartel"       "sirviendote      servicio" "ventana          babysh"; } }

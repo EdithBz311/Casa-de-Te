@@ -1,0 +1,146 @@
+
+/* MEDIA QUERIE CEL indx*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    header{
+        width: auto;
+        height: auto;
+    }
+    
+    .main__principal{
+        margin-bottom: 0.5px;
+    
+        h1{
+        font-size: 29px;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        }
+    
+        .angulina{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        
+    }    
+    
+    .footer{
+        width: fit-content;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    
+        &__ico{
+            justify-content: center;
+        }
+    
+        &__parr{
+            text-align: center;
+            font-size: 23px;
+            color: whitesmoke;
+        }
+    
+        &__redes{
+            width: 60px;
+    
+        }
+    }
+    
+    }
+    
+    /* MEDIA QUERIE TABLET - indx*/
+    
+    @media (min-width: 576px) and (max-width: 992px){
+
+        .main__principal{
+            
+            h1{
+                font-size: 40px;
+            }
+        }
+
+        .footer{
+            width: fit-content;
+            height: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        
+            &__ico{
+                justify-content: center;
+            }
+        
+            &__parr{
+                text-align: center;
+                font-size: 23px;
+                color: whitesmoke;
+            }
+        
+            &__redes{
+                width: 60px;
+        
+            }
+        }
+    
+    
+    }
+
+
+
+/* MEDIA QUERIE CEL DE GALERIA */
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .galeria__grid{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        column-gap: 15px;
+        row-gap: 20px;
+        grid-template-areas:
+                            "spill"             
+                            "copas"             
+                            "tetera__dorada"    
+                            "flor__azul"
+                            "mesa"              
+                            "globos"
+                            "mesita"            
+                            "taza__cartel"      
+                            "sirviendote"
+                            "ventana"
+                            "babysh"
+                            "servicio";
+    }
+    
+    }
+    
+    
+    /* MEDIA QUERIE TABLE GALERIA*/
+    
+    
+    @media (min-width: 576px) and (max-width: 992px) {
+    
+    .galeria__grid{
+        flex-direction: column;
+        width: fit-content;
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 20px; 
+        grid-template-areas:
+                            "spill           copas"             
+                            "tetera__dorada  flor__azul"
+                            "mesa             globos"
+                            "mesita           taza__cartel"      
+                            "sirviendote      servicio"
+                            "ventana          babysh";
+                        }
+    }
+    
+
