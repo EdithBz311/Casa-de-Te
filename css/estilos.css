@@ -44,6 +44,10 @@ li a {
   margin: 0px;
   padding: 0px; }
 
+@font-face {
+  font-family: fuente-titulos;
+  src: url("../resources/GreatVibes-Regular.ttf"); }
+
 body {
   background-image: url(../resources/bgt.jpg);
   font-family: "Roboto", sans-serif; }
@@ -63,13 +67,13 @@ body {
     grid-area: angulina; }
   .main__principal h1 {
     font-size: 48px;
-    font-family: cursive;
+    font-family: fuente-titulos;
     color: white;
     line-height: 1;
     text-align: start; }
 
 .history {
-  font-family: cursive;
+  font-family: fuente-titulos;
   color: white; }
 
 /* NUESTRAS DELICIAS  */
@@ -83,7 +87,7 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    font-family: cursive;
+    font-family: fuente-titulos;
     color: white; }
   .menu__info {
     width: 100%;
@@ -106,7 +110,7 @@ body {
     margin-bottom: 5px;
     line-height: 1; }
   .croissant h2 {
-    font-family: cursive;
+    font-family: fuente-titulos;
     color: white;
     text-align: center; }
   .croissant__img {
@@ -131,7 +135,7 @@ body {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 20px;
-  font-family: cursive;
+  font-family: fuente-titulos;
   color: white; }
 
 .galeria__info {
@@ -201,7 +205,7 @@ body {
   text-align: center; }
 
 h1, h2 {
-  font-family: cursive;
+  font-family: fuente-titulos;
   color: white; }
 
 .iconos {
@@ -234,7 +238,7 @@ h1, h2 {
     padding: 0px 16px;
     text-align: center; }
     .reserva__info h2 {
-      font-family: cursive; }
+      font-family: fuente-titulos; }
 
 /* CONTACTO */
 .contacto {
@@ -247,7 +251,7 @@ h1, h2 {
     padding: 0px 16px;
     text-align: center;
     color: white;
-    font-family: cursive;
+    font-family: fuente-titulos;
     border: none;
     justify-content: center; }
   .contacto__petalos {
@@ -266,7 +270,7 @@ h1, h2 {
   justify-content: center;
   align-items: center; }
   .mensaje h2, .mensaje h3 {
-    font-family: cursive;
+    font-family: fuente-titulos;
     color: white; }
 
 /* MEDIA QUERIE CEL indx*/

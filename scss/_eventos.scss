@@ -20,7 +20,7 @@
     text-align: center;
 }
 h1 ,h2{
-        font-family: cursive;
+        font-family: $font-titulo;
         color: $color-terciario;
     }
 
@@ -68,7 +68,7 @@ h1 ,h2{
         text-align: center;
 
         h2{
-            font-family: cursive;
+            font-family: $font-titulo;
         }
     }
 
