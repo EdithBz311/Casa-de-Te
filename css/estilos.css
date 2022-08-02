@@ -5,21 +5,23 @@
 /* tamaños : aun tengo definir :| */
 .footer {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end; }
+  justify-content: center;
+  align-items: center; }
   .footer__ico {
     background-color: #ffb6b9;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     position: relative; }
   .footer__parr {
     text-align: center;
+    align-items: center;
     font-size: 24px;
-    color: whitesmoke; }
+    color: white; }
   .footer__redes {
     display: inline;
     width: 68px;
