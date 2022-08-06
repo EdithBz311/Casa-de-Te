@@ -19,13 +19,14 @@
     &__parr{
         text-align: center;
         align-items: center;
-        font-size: 24px;
+        font-size: 17px;
         color: $color-terciario;
     }
     &__redes{
         display: inline;
         width: 68px;
         padding:0px 16px;
+        margin-bottom: 10px;
 
         &:hover{
             transform: scale(1.25,1.25);
