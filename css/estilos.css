@@ -251,25 +251,27 @@ h1, h2 {
       font-family: fuente-titulos; }
 
 /* CONTACTO */
-.contacto {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
-  .contacto__info {
+.card {
+  border: none;
+  width: 100%;
+  height: auto; }
+
+.contacto__petalos {
+  width: 100%;
+  height: auto; }
+  .contacto__petalos img {
     width: 100%;
-    margin-bottom: 0px;
-    padding: 0px 16px;
-    text-align: center;
-    color: white;
-    font-family: fuente-titulos;
-    border: none;
-    justify-content: center; }
-  .contacto__petalos {
-    width: 100%;
-    height: auto; }
-    .contacto__petalos img {
-      width: 100%;
-      max-height: 550px; }
+    max-height: 550px; }
+
+.contacto__info {
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0px 16px;
+  text-align: center;
+  color: white;
+  font-family: fuente-titulos;
+  border: none;
+  justify-content: center; }
 
 .mensaje {
   width: 100%;
