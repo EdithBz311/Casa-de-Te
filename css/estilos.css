@@ -99,14 +99,15 @@ body {
     text-align: center;
     margin-bottom: 20px;
     font-family: fuente-titulos;
-    color: white; }
+    color: #00b1d0; }
   .menu__info {
     width: 100%;
     text-align: center;
     margin-bottom: 20px; }
 
 .croissant {
-  width: 350px;
+  width: 250px;
+  /* 350 */
   height: auto;
   display: flex;
   flex-direction: column;
@@ -114,31 +115,36 @@ body {
   margin: 20px;
   padding: 5px;
   border: 1px solid #ffb6b9;
-  border-radius: 15px; }
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px #93d1d0; }
   .croissant__info p {
     width: 90%;
-    text-align: center;
+    text-align: start;
     margin-bottom: 5px;
-    line-height: 1; }
+    line-height: 1;
+    align-items: flex-start; }
   .croissant h2 {
     font-family: fuente-titulos;
-    color: white;
-    text-align: center; }
+    color: #00b1d0;
+    text-align: start; }
   .croissant__img {
-    width: 65%;
+    width: 98%;
     height: 70%;
     margin-bottom: 15px;
     margin-top: 10px; }
-  .croissant button {
-    background-color: #cef6ee;
+  .croissant__boton {
+    background-color: #ffb6b9;
+    color: white;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
-    align-content: center; }
-    .croissant button:hover {
-      transform: scale(1.2, 1.2);
+    align-content: flex-end;
+    margin-bottom: 6px; }
+    .croissant__boton:hover {
+      transform: scale(1.1, 1.25);
       transition: all 0,4ms;
-      color: #7b7bf1; }
+      background-color: #93d1d0;
+      color: white; }
 
 /* GALERIA */
 .galeria__titulo {

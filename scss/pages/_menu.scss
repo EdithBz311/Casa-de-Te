@@ -12,7 +12,7 @@
         text-align: center;
         margin-bottom: 20px;
         font-family: $font-titulo;
-        color: $color-terciario;
+        color: $color-title;
     }
     
     &__info {
@@ -25,7 +25,7 @@
 }
 
 .croissant{
-    width: 350px;
+    width: 250px; /* 350 */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -33,40 +33,46 @@
     margin: 20px;
     padding: 5px;
     border: 1px solid $color-principal;
-    border-radius: 15px;    
+    border-radius: 15px;   
+    box-shadow: 4px 4px 8px  rgb(147, 209, 208);
 
     &__info p{
         width: 90%;
-        text-align: center;
+        text-align: start;
         margin-bottom: 5px;
         line-height: 1;
+        align-items: flex-start;
     }
 
     & h2{
         font-family: $font-titulo;
-        color: $color-terciario;
-        text-align: center;
+        color: $color-title;
+        text-align: start;
     }
 
     &__img{
-        width: 65%;
+        width: 98%;
         height: 70%;
         margin-bottom: 15px;
         margin-top: 10px;
     }
     
-    button{
-        background-color: $color-secundario;
+    &__boton{
+        background-color: $color-principal;
+        color: white;
         padding:5px;
-        border-radius: 5px;
+        border-radius: 10px;
         border: none;
-        align-content: center;
+        align-content: flex-end;
+        margin-bottom: 6px;
+        
 
 
         &:hover{
-            transform: scale(1.20,1.20);
+            transform: scale(1.10,1.25);
             transition: all 0,4ms;
-            color: rgb(123, 123, 241);
+            background-color: rgb(147, 209, 208);
+            color: $color-terciario;
         }
     }
 
