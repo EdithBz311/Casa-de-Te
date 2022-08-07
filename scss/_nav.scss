@@ -3,13 +3,12 @@ header{
 }
 
 
+
 li a{
     line-height: 1;
-    
 
     &:hover{
-        transform: scale(1.25,1.25);
+        transform: scale(1.15,1.25);
         transition: all 0,5ms;
-        
     }
 }

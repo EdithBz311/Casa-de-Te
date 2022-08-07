@@ -47,7 +47,7 @@ header {
 li a {
   line-height: 1; }
   li a:hover {
-    transform: scale(1.25, 1.25);
+    transform: scale(1.15, 1.25);
     transition: all 0,5ms; }
 
 /* INICI0-index */
@@ -60,7 +60,7 @@ li a {
   src: url("../resources/GreatVibes-Regular.ttf"); }
 
 body {
-  background-image: url(../resources/bgt.jpg);
+  background-color: white;
   font-family: "Roboto", sans-serif; }
 
 .main__principal {
@@ -79,7 +79,7 @@ body {
   .main__principal h1 {
     font-size: 48px;
     font-family: fuente-titulos;
-    color: white;
+    color: #00b1d0;
     line-height: 1;
     text-align: start; }
 
