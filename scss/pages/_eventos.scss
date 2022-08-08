@@ -15,13 +15,14 @@
 
 .evento__info{
     width: 100%;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     padding: 0px 16px;
     text-align: center;
 }
 h1 ,h2{
         font-family: $font-titulo;
-        color: $color-terciario;
+        color: $color-title;
     }
 
 .iconos{
@@ -30,7 +31,8 @@ h1 ,h2{
     flex-wrap: wrap;
 
     &__padre{
-        background-color: $color-secundario;
+        background-color: $color-principal;
+        margin: 15px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -66,11 +68,18 @@ h1 ,h2{
         margin-bottom: 5px;
         padding: 0px 16px;
         text-align: center;
-
-        h2{
-            font-family: $font-titulo;
-        }
     }
+    
+    h2, h3{
+            font-family: $font-titulo;
+            color: $color-title;
+        }
 
+    iframe{
+        width: 250px;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    }    
 }
 

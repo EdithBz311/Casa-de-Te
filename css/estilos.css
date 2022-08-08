@@ -217,20 +217,22 @@ body {
 
 .evento__info {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   padding: 0px 16px;
   text-align: center; }
 
 h1, h2 {
   font-family: fuente-titulos;
-  color: white; }
+  color: #00b1d0; }
 
 .iconos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
   .iconos__padre {
-    background-color: #cef6ee;
+    background-color: #ffb6b9;
+    margin: 15px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -254,8 +256,14 @@ h1, h2 {
     margin-bottom: 5px;
     padding: 0px 16px;
     text-align: center; }
-    .reserva__info h2 {
-      font-family: fuente-titulos; }
+  .reserva h2, .reserva h3 {
+    font-family: fuente-titulos;
+    color: #00b1d0; }
+  .reserva iframe {
+    width: 250px;
+    height: 200px;
+    justify-content: center;
+    align-items: center; }
 
 /* CONTACTO */
 .card {
