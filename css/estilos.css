@@ -275,7 +275,7 @@ h1, h2 {
   margin-bottom: 0px;
   padding: 0px 16px;
   text-align: center;
-  color: white;
+  color: #00b1d0;
   font-family: fuente-titulos;
   border: none;
   justify-content: center; }
@@ -290,7 +290,21 @@ h1, h2 {
   align-items: center; }
   .mensaje h2, .mensaje h3 {
     font-family: fuente-titulos;
-    color: white; }
+    color: #00b1d0; }
+  .mensaje__lineas {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px; }
+  .mensaje__redes {
+    display: inline;
+    width: 68px;
+    padding: 0px 16px;
+    margin-bottom: 10px; }
+    .mensaje__redes:hover {
+      transform: scale(1.25, 1.25);
+      transition: all 0,5ms; }
 
 /* MEDIA QUERIE CEL indx*/
 @media (min-width: 320px) and (max-width: 575px) {
