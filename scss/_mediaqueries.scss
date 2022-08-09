@@ -8,22 +8,6 @@
         height: auto;
     }
     
-    .main__principal{
-        margin-bottom: 0.5px;
-    
-        h1{
-        font-size: 29px;
-        color: $color-terciario;
-        text-align: center;
-        line-height: 35px;
-        }
-    
-        .angulina{
-            grid-column: 1/2;
-            grid-row: 1/2;
-        }
-        
-    }    
     
     .footer{
         width: fit-content;
@@ -38,7 +22,7 @@
     
         &__parr{
             text-align: center;
-            font-size: 23px;
+            font-size: 16px;
             color: $color-terciario;
         }
     
@@ -50,16 +34,9 @@
     
     }
     
-    /* MEDIA QUERIE TABLET - indx*/
+    /* MEDIA QUERIE TABLET - indx - FOOTER*/
     
     @media (min-width: 576px) and (max-width: 992px){
-
-        .main__principal{
-            
-            h1{
-                font-size: 40px;
-            }
-        }
 
         .footer{
             width: fit-content;
@@ -74,7 +51,7 @@
         
             &__parr{
                 text-align: center;
-                font-size: 23px;
+                font-size: 16px;
                 color: $color-terciario;
             }
         

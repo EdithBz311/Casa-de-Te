@@ -5,13 +5,13 @@
 /* tamaños : aun tengo definir :| */
 /* MAP: Colección variables (clave-valor) */
 .tamaño-h1 {
-  font-size: 3rem; }
+  font-size: 4rem; }
 
 .tamaño-h2 {
-  font-size: 2rem; }
+  font-size: 3rem; }
 
 .tamaño-h3 {
-  font-size: 1rem; }
+  font-size: 2rem; }
 
 .footer {
   display: flex;
@@ -63,29 +63,51 @@ body {
   background-color: white;
   font-family: "Roboto", sans-serif; }
 
-.main__principal {
-  display: grid;
-  grid-template-columns: 1 1 1;
-  grid-auto-rows: auto;
-  grid-template-areas: "angulina    none     none";
+.home {
   border: none;
-  margin: 20px;
-  margin-bottom: 0px;
-  padding: 3px;
-  max-width: 100%;
-  height: 6vh; }
-  .main__principal .angulina {
-    grid-area: angulina; }
-  .main__principal h1 {
-    font-size: 48px;
-    font-family: fuente-titulos;
-    color: #00b1d0;
-    line-height: 1;
-    text-align: start; }
+  /*     border-radius:0%; */
+  width: 100%;
+  height: auto; }
 
+.home-title {
+  color: white;
+  text-shadow: 3px 1px 3px #9a4ef0;
+  font-family: fuente-titulos;
+  font-size: 3.5rem; }
+
+.card-img-home {
+  width: 100%;
+  max-height: 500px;
+  filter: opacity(80%); }
+
+/* .main__principal{
+    display:grid;
+    grid-template-columns:1 1 1;
+    grid-auto-rows:auto;
+    grid-template-areas:
+                        "angulina    none     none";
+    border: none;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 3px;
+    max-width: 100%;
+    height: 6vh;
+
+    .angulina{
+        grid-area:angulina;
+    } 
+
+    h1 { 
+        font-size:48px;
+        font-family: $font-titulo;
+        color: $color-title;
+        line-height: 1;
+        text-align: start;
+    }
+} */
 .history {
   font-family: fuente-titulos;
-  color: white; }
+  color: #9a4ef0; }
 
 /* NUESTRAS DELICIAS  */
 .menu {
@@ -99,7 +121,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
     font-family: fuente-titulos;
-    color: #00b1d0; }
+    color: #9a4ef0; }
   .menu__info {
     width: 100%;
     text-align: center;
@@ -125,7 +147,7 @@ body {
     align-items: flex-start; }
   .croissant h2 {
     font-family: fuente-titulos;
-    color: #00b1d0;
+    color: #9a4ef0;
     text-align: start; }
   .croissant__img {
     width: 98%;
@@ -224,7 +246,7 @@ body {
 
 h1, h2 {
   font-family: fuente-titulos;
-  color: #00b1d0; }
+  color: #9a4ef0; }
 
 .iconos {
   display: flex;
@@ -258,7 +280,7 @@ h1, h2 {
     text-align: center; }
   .reserva h2, .reserva h3 {
     font-family: fuente-titulos;
-    color: #00b1d0; }
+    color: #9a4ef0; }
   .reserva iframe {
     width: 250px;
     height: 200px;
@@ -283,7 +305,7 @@ h1, h2 {
   margin-bottom: 0px;
   padding: 0px 16px;
   text-align: center;
-  color: #00b1d0;
+  color: #9a4ef0;
   font-family: fuente-titulos;
   border: none;
   justify-content: center; }
@@ -298,7 +320,7 @@ h1, h2 {
   align-items: center; }
   .mensaje h2, .mensaje h3 {
     font-family: fuente-titulos;
-    color: #00b1d0; }
+    color: #9a4ef0; }
   .mensaje__lineas {
     display: flex;
     align-items: center;
@@ -319,16 +341,6 @@ h1, h2 {
   header {
     width: auto;
     height: auto; }
-  .main__principal {
-    margin-bottom: 0.5px; }
-    .main__principal h1 {
-      font-size: 29px;
-      color: white;
-      text-align: center;
-      line-height: 35px; }
-    .main__principal .angulina {
-      grid-column: 1/2;
-      grid-row: 1/2; }
   .footer {
     width: fit-content;
     height: auto;
@@ -339,15 +351,13 @@ h1, h2 {
       justify-content: center; }
     .footer__parr {
       text-align: center;
-      font-size: 23px;
+      font-size: 16px;
       color: white; }
     .footer__redes {
       width: 60px; } }
 
-/* MEDIA QUERIE TABLET - indx*/
+/* MEDIA QUERIE TABLET - indx - FOOTER*/
 @media (min-width: 576px) and (max-width: 992px) {
-  .main__principal h1 {
-    font-size: 40px; }
   .footer {
     width: fit-content;
     height: auto;
@@ -358,7 +368,7 @@ h1, h2 {
       justify-content: center; }
     .footer__parr {
       text-align: center;
-      font-size: 23px;
+      font-size: 16px;
       color: white; }
     .footer__redes {
       width: 60px; } }

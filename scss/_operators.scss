@@ -1,8 +1,8 @@
 /* MAP: Colección variables (clave-valor) */
 $titulos:(
-    h1: 3rem,
-    h2: 2rem,
-    h3: 1rem,
+    h1: 4rem,
+    h2: 3rem,
+    h3: 2rem,
 );
 
 @each $title, $size in $titulos {
