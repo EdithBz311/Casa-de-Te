@@ -3,14 +3,14 @@
 /* GALERIA */
 
 .galeria {
-
+    
     &__titulo{
     width: 100%;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-family: $font-titulo;
-    color: $color-terciario;
+    color: $color-title;
 }
 
     &__info {
@@ -26,6 +26,8 @@
 
 
     &__grid{
+        background-color: $color-principal;
+        border-radius: 15px;
         display: grid;
         width: fit-content;
         height: auto;

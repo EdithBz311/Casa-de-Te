@@ -146,10 +146,10 @@ body {
 .galeria__titulo {
   width: 100%;
   text-align: center;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-family: fuente-titulos;
-  color: white; }
+  color: #9a4ef0; }
 
 .galeria__info {
   margin-bottom: 15px;
@@ -159,6 +159,8 @@ body {
   text-align: center; }
 
 .galeria__grid {
+  background-color: #ffb6b9;
+  border-radius: 15px;
   display: grid;
   width: fit-content;
   height: auto;
