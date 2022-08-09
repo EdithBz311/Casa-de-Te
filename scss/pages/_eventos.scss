@@ -70,7 +70,7 @@ h1 ,h2{
         text-align: center;
     }
     
-    h2, h3{
+    h2{
             font-family: $font-titulo;
             color: $color-title;
         }
@@ -80,6 +80,24 @@ h1 ,h2{
         height: 200px;
         justify-content: center;
         align-items: center;
+        margin-bottom: 10px;
     }    
 }
+.btn-color{
+    background-color: $color-principal;
+    color: white;
+    border-radius: 3px;
+    border: none;
 
+    &:hover{
+        transform: scale(1.10,1.25);
+        transition: all 0,4ms;
+        background-color: rgb(147, 209, 208);
+        color: $color-terciario;
+    }
+}
+form{
+    border: 1px solid $color-principal;
+    border-radius: 15px;   
+    box-shadow: 4px 4px 8px  $color-principal;
+}

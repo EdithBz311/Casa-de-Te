@@ -254,14 +254,31 @@ h1, h2 {
     margin-bottom: 5px;
     padding: 0px 16px;
     text-align: center; }
-  .reserva h2, .reserva h3 {
+  .reserva h2 {
     font-family: fuente-titulos;
     color: #9a4ef0; }
   .reserva iframe {
     width: 250px;
     height: 200px;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 10px; }
+
+.btn-color {
+  background-color: #ffb6b9;
+  color: white;
+  border-radius: 3px;
+  border: none; }
+  .btn-color:hover {
+    transform: scale(1.1, 1.25);
+    transition: all 0,4ms;
+    background-color: #93d1d0;
+    color: white; }
+
+form {
+  border: 1px solid #ffb6b9;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px #ffb6b9; }
 
 /* CONTACTO */
 .card {
