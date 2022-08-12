@@ -19,7 +19,7 @@
     <header>
         <nav class="navbar navbar-expand-lg header">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../index.html">
                 <img src="../resources/faviconn.ico" alt="favicon">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -113,36 +113,39 @@
                 <h2>Reserva Ahora</h2>
                 <p>Para reservaciones podes llamar a nuestras líneas directamente o llena el siguiente formulario y nos contactaremos lo más pronto posible.</p>
             </div>
-            <article class="mx-auto mb-3 w-50 align-items-center">
+            <article class="mx-auto mb-3 w-50 ">
             <form method="POST">
-                    <div class="container-fluid p-2">
-                    <div class="form-floating mb-3">
+                    <div class="container-fluid p-3 form-control-sm">
+                    <div class="form-floating mb-3 form-control-sm">
                     <input type="text" class="form-control" placeholder="First name" aria-label="First name">
                     <label for="nombre">Tu Nombre</label>
                     </div>
-                    <div class="form-floating mb-3">  
+                    <div class="form-floating mb-3 form-control-sm">  
                     <input type="number"class="form-control" placeholder="tel" aria-label="tel"/>
                     <label for="tel"> Tel</label>
                     </div>
-                    <div class="form-floating mb-3">
+                    <div class="form-floating mb-3 form-control-sm">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                         <label for="floatingInput">E-mail</label>
                     </div>
-                    <div class="form-floating mb-3">            
+                    <div class="form-floating mb-3 form-control-sm">            
                     <input type="text"class="form-control" placeholder="clase evento" aria-label="clase evento">
                     <label for="evento"> Clase de Evento</label>
                     </div>
             
-                    <div class="form-floating mb-3">  
+                    <div class="form-floating mb-3 form-control-sm">  
                     <input type="date" class="form-control"  name="date"/> 
                     <label for="fecha"> Fecha </label>
                     </div>
-                    <div class="form-floating mb-3"> 
+                    <div class="form-floating mb-3 form-control-sm"> 
                     <input type="number" class="form-control" placeholder="N de personas" aria-label="N de personas"/>
                     <label for="personas"> N° de Personas</label>
                     </div>
-                    <button type="button" class="btn-color ">Enviar</button>   
+                    <div class="form-floating mb-3 form-control-sm">
+                    <button type="button" class="btn-color form-control-sm">Enviar</button>   
+                    <button type="button" class="btn-color form-control-sm">Borrar</button>   
                     </div>
+                </div>
             </form>
         </article>
         </section>
