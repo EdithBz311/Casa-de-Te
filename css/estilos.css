@@ -83,6 +83,9 @@ body {
   font-family: fuente-titulos;
   color: #9a4ef0; }
 
+.img-fluid {
+  filter: opacity(90%); }
+
 /* NUESTRAS DELICIAS  */
 .menu {
   display: flex;
