@@ -16,7 +16,7 @@
     <title>Eventos-Angulina Casa de Té</title>
 </head>
 <body>
-    <header> 
+    <header> <!-- NAV-BAR -->
         <nav class="navbar navbar-expand-lg header">
             <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
@@ -49,7 +49,7 @@
     </header>
 
     <main> 
-                <!-- CARRUSEL BOOTSTRAP -->
+                <!-- CARRUSEL BOOTSTRAP EVENTOS -->
         <section>
             <div class="evento__info">
             <h1> ~ Organizá tu Evento con nosotros ~</h1>
@@ -83,7 +83,7 @@
             </div>
         </section>
 
-        <section class="iconos">
+        <section class="iconos"> <!-- iconos de eventos -->
             <article class="iconos__padre">
             <div class="iconos__hijo">
                 <img class="iconos__img" src="../resources/tea-white.svg" alt="tea time">
@@ -104,16 +104,16 @@
         </section>
 
         <section class="reserva">
-            <div class="reserva__info">
+            <article class="reserva__info">
                 <div>
-                <h2>Nuestra Ubicación</h2>    
+                <h2>Nuestra Ubicación</h2>    <!-- Iframe Mapa -->
                 <p>Encontranos en Av. Siempreviva 742, Rosario.</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.2369231860266!2d-68.04677728499635!3d-38.96425777956037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a31864c808baf%3A0x3354a6ce1427c187!2sAv.%20Siempreviva%2C%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1659993572727!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <h2>Reserva Ahora</h2>
                 <p>Para reservaciones podes llamar a nuestras líneas directamente o llena el siguiente formulario y nos contactaremos lo más pronto posible.</p>
-            </div>
-            <article class="mx-auto mb-3 w-50 ">
+            </article>
+            <article class="mx-auto mb-3 w-50"> <!-- FORMULARIO EVENTO -->
             <form method="POST">
                     <div class="container-fluid p-3 form-control-sm">
                     <div class="form-floating mb-3 form-control-sm">
@@ -132,14 +132,13 @@
                     <input type="text"class="form-control" placeholder="clase evento" aria-label="clase evento">
                     <label for="evento"> Clase de Evento</label>
                     </div>
-            
                     <div class="form-floating mb-3 form-control-sm">  
-                    <input type="date" class="form-control"  name="date"/> 
-                    <label for="fecha"> Fecha </label>
+                    <input type="date" class="form-control"name="date"/> 
+                    <label for="fecha">Fecha</label>
                     </div>
                     <div class="form-floating mb-3 form-control-sm"> 
                     <input type="number" class="form-control" placeholder="N de personas" aria-label="N de personas"/>
-                    <label for="personas"> N° de Personas</label>
+                    <label for="personas">N° de Personas</label>
                     </div>
                     <div class="form-floating mb-3 form-control-sm">
                     <button type="button" class="btn-color form-control-sm">Enviar</button>   
@@ -155,10 +154,10 @@
         <div class="footer__ico">
             <p class="footer__parr"> Siguenos en Nuestras Redes </p>
             <div class="footer__svg">
-            <a href="https://facebook.com"><img class="footer__redes" src="../resources/fcwhite.svg"></a>
-            <a href="https://instagram.com"><img class="footer__redes" src="../resources/igwhite.svg"></a>
-            <a href="https://twitter.com"><img class="footer__redes" src="../resources/twitterwhite.svg"></a>
-            <a href="https://www.tiktok.com"><img class="footer__redes" src="../resources/tikwhite.svg"></a>
+            <a href="https://facebook.com" target="_blank"><img class="footer__redes" src="../resources/fcwhite.svg"></a>
+            <a href="https://instagram.com" target="_blank"><img class="footer__redes" src="../resources/igwhite.svg"></a>
+            <a href="https://twitter.com" target="_blank"><img class="footer__redes" src="../resources/twitterwhite.svg"></a>
+            <a href="https://www.tiktok.com" target="_blank"><img class="footer__redes" src="../resources/tikwhite.svg"></a>
             </div>
             <p class="footer__parr">2022 ©Angulina Casa de Té . Todos los derechos reservados . Página sin fines de lucro.</p>
 
