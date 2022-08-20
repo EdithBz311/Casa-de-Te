@@ -47,9 +47,13 @@ header {
 li a {
   line-height: 1; }
   li a:hover {
-    transform: scale(1.15, 1.25);
+    transform: scale(1.03, 1.1);
     transition: all 0,5ms; }
 
+/* .nav-link:visited{
+    color: blueviolet;
+} */
+/* Profe, no pude hacer andar ni el active, visited, solo el hover, pero no me tomar cambio de color */
 /* INICI0-index */
 * {
   margin: 0px;
