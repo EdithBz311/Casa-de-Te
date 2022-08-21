@@ -9,8 +9,7 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: $font-titulo;
-    color: $color-title;
+    @extend .fontstyle2;
 }
 
     &__info {

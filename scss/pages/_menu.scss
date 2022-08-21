@@ -12,8 +12,7 @@
         text-align: center;
         margin-top: 20px;
         margin-bottom: 3px;
-        font-family: $font-titulo;
-        color: $color-title;
+        @extend .fontstyle2;
     }
     
     &__info {
@@ -33,7 +32,6 @@
     align-items: center;
     margin: 15px;
     padding: 10px;
-    
     border-radius: 15px;   
     box-shadow: 4px 4px 8px  $color-principal;
 
@@ -46,8 +44,7 @@
     }
 
     & h2{
-        font-family: $font-titulo;
-        color: $color-title;
+        @extend .fontstyle2;
         text-align: start;
     }
 
@@ -60,7 +57,7 @@
     
     &__boton{
         background-color: $color-principal;
-        color: white;
+        color: $color-terciario;
         padding:5px;
         border-radius: 10px;
         border: none;

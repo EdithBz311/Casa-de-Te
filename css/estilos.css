@@ -2,14 +2,15 @@
 /* colores */
 /* letras */
 /* $font-titulo:  preguntar a la profe como colocar otra fuente*/
-/* tamaños : aun tengo definir :| */
+/* crear tamaños anchos: 100% 
+color botones | */
 /* Extend */
 .fontstyle, .home-title {
   font-family: GreatVibes;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #9a4ef0; }
 
-.fontstyle2, .home-subtitle, .history {
+.fontstyle2, .home-subtitle, .history, .menu__titulo, .producto h2, .galeria__titulo, h1, h2, .contacto__info, .mensaje h2, .mensaje h3 {
   font-family: GreatVibes;
   font-size: 2.3rem;
   color: #9a4ef0; }
@@ -98,9 +99,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 3px;
-    font-family: GreatVibes;
-    color: #9a4ef0; }
+    margin-bottom: 3px; }
   .menu__info {
     width: 100%;
     text-align: center;
@@ -124,8 +123,6 @@ body {
     line-height: 1;
     align-items: flex-start; }
   .producto h2 {
-    font-family: GreatVibes;
-    color: #9a4ef0;
     text-align: start; }
   .producto__img {
     width: 98%;
@@ -151,9 +148,7 @@ body {
   width: 100%;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 10px;
-  font-family: GreatVibes;
-  color: #9a4ef0; }
+  margin-bottom: 10px; }
 
 .galeria__info {
   margin-bottom: 15px;
@@ -230,10 +225,6 @@ body {
   padding: 0px 16px;
   text-align: center; }
 
-h1, h2 {
-  font-family: GreatVibes;
-  color: #9a4ef0; }
-
 .iconos {
   display: flex;
   justify-content: center;
@@ -308,8 +299,6 @@ form {
   margin-bottom: 0px;
   padding: 0px 16px;
   text-align: center;
-  color: #9a4ef0;
-  font-family: GreatVibes;
   border: none;
   justify-content: center; }
 
@@ -321,9 +310,6 @@ form {
   text-align: center;
   justify-content: center;
   align-items: center; }
-  .mensaje h2, .mensaje h3 {
-    font-family: GreatVibes;
-    color: #9a4ef0; }
   .mensaje__lineas {
     display: flex;
     align-items: center;
