@@ -3,15 +3,16 @@
 /* letras */
 /* $font-titulo:  preguntar a la profe como colocar otra fuente*/
 /* tamaños : aun tengo definir :| */
-/* MAP: Colección variables (clave-valor) */
-.tamaño-h1 {
-  font-size: 4rem; }
+/* Extend */
+.fontstyle, .home-title {
+  font-family: GreatVibes;
+  font-size: 4rem;
+  color: #9a4ef0; }
 
-.tamaño-h2 {
-  font-size: 3rem; }
-
-.tamaño-h3 {
-  font-size: 2rem; }
+.fontstyle2, .home-subtitle, .history {
+  font-family: GreatVibes;
+  font-size: 2.3rem;
+  color: #9a4ef0; }
 
 .footer {
   display: flex;
@@ -60,7 +61,7 @@ li a {
   padding: 0px; }
 
 @font-face {
-  font-family: fuente-titulos;
+  font-family: GreatVibes;
   src: url("../resources/GreatVibes-Regular.ttf"); }
 
 body {
@@ -71,21 +72,17 @@ body {
   border: none;
   width: 100%;
   height: auto; }
-
-.home-title {
-  color: white;
-  text-shadow: 3px 1px 3px #9a4ef0;
-  font-family: fuente-titulos;
-  font-size: 3.5rem; }
+  .home-title {
+    color: white;
+    text-shadow: 3px 1px 3px #9a4ef0; }
+  .home-subtitle {
+    color: white;
+    text-shadow: 3px 1px 3px #9a4ef0; }
 
 .card-img-home {
   width: 100%;
   max-height: 500px;
   filter: opacity(80%); }
-
-.history {
-  font-family: fuente-titulos;
-  color: #9a4ef0; }
 
 .img-fluid {
   filter: opacity(90%); }
@@ -102,7 +99,7 @@ body {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 3px;
-    font-family: fuente-titulos;
+    font-family: GreatVibes;
     color: #9a4ef0; }
   .menu__info {
     width: 100%;
@@ -127,7 +124,7 @@ body {
     line-height: 1;
     align-items: flex-start; }
   .producto h2 {
-    font-family: fuente-titulos;
+    font-family: GreatVibes;
     color: #9a4ef0;
     text-align: start; }
   .producto__img {
@@ -155,7 +152,7 @@ body {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: fuente-titulos;
+  font-family: GreatVibes;
   color: #9a4ef0; }
 
 .galeria__info {
@@ -234,7 +231,7 @@ body {
   text-align: center; }
 
 h1, h2 {
-  font-family: fuente-titulos;
+  font-family: GreatVibes;
   color: #9a4ef0; }
 
 .iconos {
@@ -268,7 +265,7 @@ h1, h2 {
     padding: 0px 16px;
     text-align: center; }
   .reserva h2 {
-    font-family: fuente-titulos;
+    font-family: GreatVibes;
     color: #9a4ef0; }
   .reserva iframe {
     width: 250px;
@@ -312,7 +309,7 @@ form {
   padding: 0px 16px;
   text-align: center;
   color: #9a4ef0;
-  font-family: fuente-titulos;
+  font-family: GreatVibes;
   border: none;
   justify-content: center; }
 
@@ -325,7 +322,7 @@ form {
   justify-content: center;
   align-items: center; }
   .mensaje h2, .mensaje h3 {
-    font-family: fuente-titulos;
+    font-family: GreatVibes;
     color: #9a4ef0; }
   .mensaje__lineas {
     display: flex;

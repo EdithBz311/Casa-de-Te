@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: fuente-titulos;
+    font-family: GreatVibes;
     src: url("../resources/GreatVibes-Regular.ttf")
 }
 
@@ -17,17 +17,20 @@ body {
 
 .home{
     border: none;
-
     width: 100%;
     height:auto;
-}
-.home-title{
-    color:$color-terciario;
-    text-shadow: 3px 1px 3px rgb(154, 78, 240);
-    font-family: $font-titulo;
-    font-size: 3.5rem;
-}
 
+    &-title{
+    color:$color-terciario;
+    @extend .fontstyle;
+    text-shadow: 3px 1px 3px rgb(154, 78, 240);
+}
+    &-subtitle{
+    color:$color-terciario;
+    @extend .fontstyle2;
+    text-shadow: 3px 1px 3px rgb(154, 78, 240);
+}
+}
 
 .card-img-home{
     width: 100%;
@@ -36,8 +39,7 @@ body {
 }
 
 .history{
-    font-family: $font-titulo;
-    color: $color-title;
+    @extend .fontstyle2;
 }
 
 .img-fluid{

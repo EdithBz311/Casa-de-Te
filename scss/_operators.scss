@@ -1,16 +1,13 @@
-/* MAP: Colección variables (clave-valor) */
-$titulos:(
-    h1: 4rem,
-    h2: 3rem,
-    h3: 2rem,
-);
+/* Extend */
 
-@each $title, $size in $titulos {
-    .tamaño-#{$title} { 
-    font-size: #{$size};
+.fontstyle {
+    font-family:$font-titulo;
+    font-size: $size-titulo;
+    color:$color-title;
+    } 
+
+.fontstyle2 {
+    font-family:$font-titulo;
+    font-size: $size-subtitulo;
+    color:$color-title;
 }
-    
-}
-
-
-
