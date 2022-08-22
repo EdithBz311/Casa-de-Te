@@ -2,8 +2,7 @@
 /* colores */
 /* letras */
 /* $font-titulo:  agregada desde resources*/
-/* crear tamaños anchos: 100% 
-color botones | */
+/* tamaños titulos */
 /* Extend */
 .fontstyle, .home-title {
   font-family: GreatVibes;
@@ -61,6 +60,7 @@ li a {
   margin: 0px;
   padding: 0px; }
 
+/* Fuente titulos */
 @font-face {
   font-family: GreatVibes;
   src: url("../resources/GreatVibes-Regular.ttf"); }
@@ -89,7 +89,7 @@ body {
 .img-fluid {
   filter: opacity(90%); }
 
-/* NUESTRAS DELICIAS  */
+/* NUESTRAS DELICIAS (MENU) */
 .menu {
   display: flex;
   flex-wrap: wrap;
