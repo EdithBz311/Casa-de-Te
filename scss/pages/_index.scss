@@ -1,4 +1,4 @@
-/* INICI0-index */
+/* INICI0-Características generales */
 
 
 *{ margin: 0px;
@@ -15,25 +15,27 @@ body {
     font-family: $font-principal; 
 }
 
+/* INICIO */
+
 .home{
     border: none;
-    width: 100%;
+    width: $ancho;
     height:auto;
 
     &-title{
     color:$color-terciario;
     @extend .fontstyle;
-    text-shadow: 3px 1px 3px rgb(154, 78, 240);
+    text-shadow: 3px 1px 3px $color-title;
 }
     &-subtitle{
     color:$color-terciario;
     @extend .fontstyle2;
-    text-shadow: 3px 1px 3px rgb(154, 78, 240);
+    text-shadow: 3px 1px 3px $color-title;
 }
 }
 
 .card-img-home{
-    width: 100%;
+    width: $ancho;
     max-height: 500px;  
     filter: opacity(80%);
 }

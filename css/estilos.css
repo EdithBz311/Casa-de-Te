@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /* colores */
 /* letras */
-/* $font-titulo:  preguntar a la profe como colocar otra fuente*/
+/* $font-titulo:  agregada desde resources*/
 /* crear tamaños anchos: 100% 
 color botones | */
 /* Extend */
 .fontstyle, .home-title {
   font-family: GreatVibes;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #9a4ef0; }
 
 .fontstyle2, .home-subtitle, .history, .menu__titulo, .producto h2, .galeria__titulo, h1, h2, .contacto__info, .mensaje h2, .mensaje h3 {
@@ -56,7 +56,7 @@ li a {
     color: blueviolet;
 } */
 /* Profe, no pude hacer andar ni el active, visited, solo el hover, pero no me tomar cambio de color */
-/* INICI0-index */
+/* INICI0-Características generales */
 * {
   margin: 0px;
   padding: 0px; }
@@ -69,6 +69,7 @@ body {
   background-color: white;
   font-family: "Roboto Condensed", sans-serif; }
 
+/* INICIO */
 .home {
   border: none;
   width: 100%;
@@ -107,7 +108,6 @@ body {
 
 .producto {
   width: 250px;
-  /* 350 */
   height: auto;
   display: flex;
   flex-direction: column;
@@ -158,7 +158,7 @@ body {
   text-align: center; }
 
 .galeria__grid {
-  background-color: #cef6ee;
+  background-color: #ffb6b9;
   border-radius: 15px;
   display: grid;
   width: fit-content;
@@ -208,8 +208,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat; }
   .galeria img:hover {
-    transform: scale(0.9, 0.8);
-    transition: all 1ms; }
+    transition: all 1ms;
+    border: 5px solid #cef6ee; }
 
 /* EVENTOS */
 .carousel-inner {

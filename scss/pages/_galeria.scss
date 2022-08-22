@@ -5,7 +5,7 @@
 .galeria {
     
     &__titulo{
-    width: 100%;
+    width: $ancho;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -25,7 +25,7 @@
 
 
     &__grid{
-        background-color: $color-secundario;
+        background-color: $color-principal;
         border-radius: 15px;
         display: grid;
         width: fit-content;
@@ -83,19 +83,19 @@
     }
 
     &__contenedor{
-        width: 100%;
+        width: $ancho;
         max-height: auto;
     
     }
     & img{
-        width: 100%;
+        width: $ancho;
         height: 100%;
         background-size: cover;
         background-repeat: no-repeat;
 
         &:hover{
-            transform: scale(0.90,0.80);
             transition: all 1ms;
+            border: 5px solid $color-secundario;
             
         }
     }

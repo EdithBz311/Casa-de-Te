@@ -3,12 +3,12 @@
 .menu{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: $ancho;
     padding: 5px;
     justify-content: center;
 
     &__titulo{
-        width: 100%;
+        width: $ancho;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 3px;
@@ -16,7 +16,7 @@
     }
     
     &__info {
-        width: 100%;
+        width: $ancho;
         text-align: center;
         margin-bottom: 20px;
     
@@ -25,7 +25,7 @@
 }
 
 .producto{
-    width: 250px; /* 350 */
+    width: 250px; 
     height: auto;
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@
         &:hover{
             transform: scale(1.10,1.25);
             transition: all 0,4ms;
-            background-color: rgb(147, 209, 208);
+            background-color: $boton-color;
             color: $color-terciario;
         }
     }
